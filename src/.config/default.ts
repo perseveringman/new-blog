@@ -5,16 +5,16 @@ import type { ThemeConfig } from '~/types'
 
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: '活版印字',
-    subtitle: 'Typography',
-    author: 'Moeyua',
-    description: 'Rediscory the beauty of typography',
+    title: '立人一丁',
+    subtitle: 'Khalil',
+    author: '立人一丁',
+    description: 'A journey of a thousand miles begins with a single step',
     website: 'https://astro-theme-typography.vercel.app/',
     pageSize: 5,
     socialLinks: [
       {
         name: 'github',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://github.com/perseveringman',
       },
       {
         name: 'rss',
@@ -22,11 +22,7 @@ export const defaultConfig: ThemeConfig = {
       },
       {
         name: 'twitter',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
-        name: 'mastodon',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://x.com/zybworld',
       },
     ],
     navLinks: [
@@ -51,7 +47,6 @@ export const defaultConfig: ThemeConfig = {
     footer: [
       '© %year <a target="_blank" href="%website">%author</a>',
       'Theme <a target="_blank" href="https://github.com/Moeyua/astro-theme-typography">Typography</a> by <a target="_blank" href="https://moeyua.com">Moeyua</a>',
-      'Proudly published with <a target="_blank" href="https://astro.build/">Astro</a>',
     ],
   },
   appearance: {
@@ -72,7 +67,7 @@ export const defaultConfig: ThemeConfig = {
     },
   },
   seo: {
-    twitter: '@moeyua13',
+    twitter: '@zybworld',
     meta: [],
     link: [],
   },
